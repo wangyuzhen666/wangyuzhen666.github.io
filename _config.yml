@@ -2,7 +2,7 @@
 #   Main Configs   #
 # ---------------- #
 baseurl:
-url: https://mazhuang.org
+url: https://wangyuzhen666.github.io/
 date_format: "ordinal"
 title: wangyuzhen王玉镇's blog&website
 subtitle: "wangyuzhen王玉镇's blog&website"
@@ -70,7 +70,8 @@ email: wangyuzhen831201@163.com
 # ---------------- #
 navs:
   -
-
+    href: /
+    lable：首页 
   -
     href: /categories/
     label: 分类
@@ -174,7 +175,7 @@ simple_jekyll_search:
     # 是否支持全文搜索
     fulltext: true
     # 最多显示多少条搜索结果
-    limit: 10
+    limit: 100
 
 # ---------------- #
 #      Google      #
