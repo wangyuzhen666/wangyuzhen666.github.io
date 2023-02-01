@@ -41,7 +41,7 @@ components:
     # 修改图片请替换 assets/images/qrcode.jpg
     qrcode:
         enabled: true
-        image_alt: 闷骚的程序员
+        image_alt: wangyuzhen
     # 维基索引页使用哪种视图，支持 列表（list）/分类（cate）
     wiki:
         view: cate
@@ -70,8 +70,6 @@ email: wangyuzhen831201@163.com
 # ---------------- #
 navs:
   -
-    href: /
-    label: 首页
 
   -
     href: /categories/
@@ -162,10 +160,10 @@ beaudar:
     repo: mzlogin/blog-comments
 # giscus 配置参考：https://giscus.app/zh-CN
 giscus:
-    repo: mzlogin/blog-comments
-    repo-id: MDEwOlJlcG9zaXRvcnk5MzEyNzkxNw==
+    repo: wangyuzhen666/wangyuzhen666.github.io
+    repo-id: R_kgDOI3_yLg
     category: Announcements
-    category-id: DIC_kwDOBY0E7c4CRtg9
+    category-id: DIC_kwDOI3_yLs4CT7q0
 # 在使用其它评论组件时可点击显示 Disqus
 lazy_load_disqus : false
 
@@ -174,7 +172,7 @@ lazy_load_disqus : false
 # ---------------- #
 simple_jekyll_search:
     # 是否支持全文搜索
-    fulltext: false
+    fulltext: true
     # 最多显示多少条搜索结果
     limit: 10
 
