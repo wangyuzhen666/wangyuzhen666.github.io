@@ -16,7 +16,7 @@ keywords: GitHub, CDN, jsdelivr
 
 ### 改造前加载
 
-![before use cdn](/images/posts/github/cdn-before.png)
+![before use cdn](https://github.com/mzlogin/mzlogin.github.io/blob/master/images/posts/github/cdn-before.png)
 
 *注：由于改造前没有保留加载图，所以这是截的一个使用相同模板的朋友的首页加载情况。*
 
@@ -24,13 +24,13 @@ keywords: GitHub, CDN, jsdelivr
 
 ### 改造后加载
 
-![after use cdn](/images/posts/github/cdn-after.png)
+![after use cdn](https://mazhuang.org/images/posts/github/cdn-after.png)
 
 这样一对比效果还是很明显的。改造过后耗时最长的是两个没办法走 CDN 的请求，而走 CDN 的那些资源加载时间基本都没超过 60 毫秒，页面完成加载时间缩短到了 3 秒以内。
 
 当然，因为页面自身还是在 GitHub Pages 托管，有时候首个请求还是会挺久才返回。
 
-改造后的效果可以打开 <https://mazhuang.org> 体验。
+改造后的效果可以打开 <https://wangyuzhen666.github.io> 体验。
 
 ## 方案考虑
 
