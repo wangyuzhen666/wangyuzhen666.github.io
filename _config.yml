@@ -71,7 +71,7 @@ email: wangyuzhen831201@163.com
 navs:
   -
     href: /
-    lable: 首页 
+    label: 首页 
   -
     href: /categories/
     label: 分类
