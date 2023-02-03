@@ -94,12 +94,8 @@ navs:
 
   -
     href: /about/
-    label: 关于
+    label: 关于作者...
 
-# ---------------- #
-#       RSS        #
-# ---------------- #
-subscribe_rss: /feed.xml
 
 # ---------------- #
 #      Jekyll      #
