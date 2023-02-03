@@ -2,7 +2,7 @@
 - name: wangyuzhen王玉镇's blog&website
   url: https://wangyuzhen666.github.io/
   src: life
-- name: 码志
+- name:码志
   url: http://mazhuang.org
   src: life
 
@@ -64,6 +64,10 @@
 
 - name: 浏览器VPN翻墙插件，目前亲测德国线路有效 Download Hoxx VPN Proxy For Free
   url: https://microsoftedge.microsoft.com/addons/detail/mmkgibaofkehmmnbcfleonelhenlgcbc
+  src: www
+  
+- name: 下载 – 极光vpn翻墙梯子（Windows，Mac，Android，iOS均有客户端，提供免费线路且免注册）
+  url: https://arr009.network/download/
   src: www
 
 - name: watch（n.） white website。。。
