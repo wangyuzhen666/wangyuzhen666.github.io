@@ -1,83 +1,76 @@
+
+- name: wangyuzhen王玉镇's blog&website
+  url: https://wangyuzhen666.github.io/
+  src: life
 - name: 码志
   url: http://mazhuang.org
   src: life
 
-- name: Connie 酱
-  url: https://connie99.github.io
+- name: wyz831201王玉镇的博客_CSDN博客-c++领域博主
+  url: https://blog.csdn.net/wyz831201/
   src: life
 
-- name: 只宁静不致远
-  url: http://zxning.github.io
+- name: GeekPrank Hacker Typer - Online Hacker Simulator
+  url: https://geekprank.com/hacker/
   src: life
 
-- name: Blog Something
-  url: http://chenxiaoyoyo.github.io
+- name: Tampermonkey油猴脚本插件
+  url: https://www.tampermonkey.net/
+  src: 
+
+- name: 极客恶作剧 😈 在线恶作剧
+  url: https://geekprank.com/
   src: life
 
-- name: 日新亭
-  url: http://www.fengerzh.com/
+- name: 在线抠图软件_图片去除背景 | remove.bg – remove.bg
+  url: https://www.remove.bg/zh
   src: life
 
-- name: wanandroid
-  url: http://www.wanandroid.com/
+- name: 程序员导航-CXY521
+  url: https://tooool.org/
   src: life
 
-- name: ZZY补完计划
-  url: https://zzycreate.github.io/
+- name: 菜鸟工具 - 不止于工具
+  url: https://c.runoob.com/
   src: life
 
-- name: 村农
-  url: http://www.why-dong.com/
+- name: 国外网站推荐-分享互联网-外国网站大全
+  url: https://www.egouz.com/
   src: life
 
-- name: 求生之路
-  url: http://blog.xiaolaoni.xin/
+- name: 在线工具 - 你的工具箱
+  url: https://tool.lu/
   src: life
 
-- name: 董小姐的草原
-  url: https://candy961.github.io/
-  src: life
-
-- name: 王玉超
-  url: https://yuchao.wang/
+- name: 91数学网-数学,从未如此接近！
+  url: https://www.91maths.com/
   src: www
 
-- name: 水寒的博客
-  url: https://dp2px.com
+- name: I - Aexo,王子恒的博客blog
+  url: https://0xarch.netlify.app/
   src: www
 
-- name: 孙不服的博客
-  url: https://sunbufu.github.io/
+- name: 工具哇 - 在线工具大全
+  url: https://toolwa.com/
   src: www
 
-- name: HwiLu's 博客
-  url: https://hwilu.github.io/
+- name: KinhDown - 百度网盘免装下载
+  url: KinhDown - 首页
   src: www
 
-- name: 有次博客
-  url: http://you.ci/
+- name: mzlogin/mzlogin.github.io:/ GitHub Pages 博客模板 
+  url: https://github.com/mzlogin/mzlogin.github.io#fork-%E6%8C%87%E5%8D%97
   src: www
 
-- name: 呓城之城
-  url: http://yicheng.zdyrs.com/
+- name: 浏览器VPN翻墙插件，目前亲测德国线路有效 Download Hoxx VPN Proxy For Free
+  url: https://microsoftedge.microsoft.com/addons/detail/mmkgibaofkehmmnbcfleonelhenlgcbc
   src: www
 
-- name: 秦大圣的博客
-  url: https://qinjisheng.top/
+- name: watch（n.） white website。。。
+  url: http://www.biaobaishike.com/
   src: www
 
-- name: 极客玩家大白
-  url: https://geekplayers.com/
+- name: 虾米解析-全网最稳视频解析接口
+  url: https://jx.xmflv.com/
   src: www
 
-- name: 见字如面
-  url: https://hiwannz.com
-  src: www
-
-- name: 梦境迷离
-  url: https://dreamylost.cn
-  src: www
-
-- name: river's blog
-  url: https://www.river106.cn
-  src: www
