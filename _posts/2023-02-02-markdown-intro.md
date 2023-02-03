@@ -4,9 +4,10 @@ title: 一份简明的 Markdown 笔记与教程
 categories: Markdown
 description: 一份简明的 Markdown 笔记与教程
 keywords: Markdown, VSCode
+topmost: true
 ---
 
-为部门内知识分享准备的素材，记录了 Markdown 的优点、应用场景和编辑工具，介绍了标准语法与扩展语法，以及一些应用 Markdown 的实用技巧。个人使用 Markdown 的经验持续补充中，最新完整版请参见
+为广大网友知识分享准备的素材，记录了 Markdown 的优点、应用场景和编辑工具，介绍了标准语法与扩展语法，以及一些应用 Markdown 的实用技巧。个人使用 Markdown 的经验持续补充中，最新完整版请参见
 
 <https://github.com/mzlogin/markdown-intro>
 
