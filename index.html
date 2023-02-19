@@ -43,6 +43,13 @@ comments: false
       </div>
     </div>
 </section>
+<script>
+function search_on_web() {
+var search_input = document.getElementById("search_input").value;
+window.open('https://so.csdn.net/so/search?q=' + search_input);
+}
+</script><input type="text" id="search_input">
+<input type="button" onclick="search_on_web()" value="CSDN搜索">
 <!-- /.banner -->
 <section class="container content">
     <div class="columns">
