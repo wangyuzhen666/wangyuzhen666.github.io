@@ -10,7 +10,7 @@ var S = {
     if (i !== -1) {
       S.UI.simulate(decodeURI(action).substring(i + 3));
     } else {
-      S.UI.simulate('|张银灿SB|王玉镇||#rectangle|');
+      S.UI.simulate('|张银灿SB||#rectangle|');
       // S.UI.simulate('|写|尽|千|山|落|笔|是|你|#rectangle|');
     }
  
