@@ -6,7 +6,6 @@ description:
 keywords: chemistry, study
 topmost: true
 ---
-@0xarch：
 
 ![城阳区强基计划lesson1](https://wangyuzhen666.github.io/assets/images/study/chemistry/-400f46abf2753b2.jpg)
 ![城阳区强基计划lesson1](https://wangyuzhen666.github.io/assets/images/study/chemistry/-42d889f89d5d98a4.jpg)
