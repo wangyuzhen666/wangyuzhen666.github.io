@@ -105,7 +105,7 @@ f ( x ) + g ( x ) = 1 2 π σ 1 e − ( x − μ 1 ) 2 2 σ 1 2 + 1 2 π σ 2 e 
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/41d287ba23584fe183f291d3d46be943.png#pic_center)
 
 ### 11\. 等等
-### 网址   ：   https://chat.forchange.cn/
+### 网址   ：   [http://123.tentod.com/]
 
  
 
