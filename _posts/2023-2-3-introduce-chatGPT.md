@@ -106,6 +106,7 @@ f ( x ) + g ( x ) = 1 2 π σ 1 e − ( x − μ 1 ) 2 2 σ 1 2 + 1 2 π σ 2 e 
 
 ### 11\. 等等
 ### 网址   ：   [http://123.tentod.com/]
+### [使用 ChatGPT 来生成代码部署代码在netlify上](https://www.netlify.com/blog/introducing-netlify-drop-chatgpt-plugin/?utm_source=in-app-notification)
 
  
 
