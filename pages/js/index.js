@@ -10,8 +10,8 @@ var S = {
     if (i !== -1) {
       S.UI.simulate(decodeURI(action).substring(i + 3));
     } else {
-      S.UI.simulate('|张银灿SB||#rectangle|');
-      // S.UI.simulate('|写|尽|千|山|落|笔|是|你|#rectangle|');
+     
+      S.UI.simulate('|我是|SB|孙|子|涵|SZH|是|SB|#rectangle|');
     }
  
     S.Drawing.loop(function () {
