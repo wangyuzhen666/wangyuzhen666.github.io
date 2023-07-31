@@ -21,8 +21,9 @@
 }
 
 .home .site-header .site-header-nav-item {
-    color: rgb(62 187 255)
+    color: #fff;
 }
+
 
 .home .site-header .site-header-nav-item:hover {
     color: #fff
