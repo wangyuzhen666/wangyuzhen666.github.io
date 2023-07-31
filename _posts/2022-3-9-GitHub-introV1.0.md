@@ -1,4 +1,12 @@
+---
+layout: post
+title: GitHub-introV1.0
+categories: [Github]
+description: GitHub-introV1.0
+keywords: GitHub, github
+---
 
+Content here
 介绍GitHub各种功能
 什么是GitHub
 GitHub是一个基于互联网的代码托管平台，它可以帮助开发者存储、管理和分享代码，使得代码的开发和协作更加方便和高效。GitHub不仅仅是一个代码托管平台，还提供了丰富的功能来帮助开发者更好地管理和协作。
