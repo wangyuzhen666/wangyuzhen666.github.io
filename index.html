@@ -44,24 +44,14 @@ comments: false
     </div>
 </section>
 <section class="container content">
-    <script>
-        function search_on_web() {
-            var search_input = document.getElementById("search_input").value;
-            window.open('https://github.com/search?q=' + search_input);
-        }
-    </script>
-    <style>
-        .search-container {
-            margin-left: 1cm;
-        }
-    </style>
-    <div class="search-container">
-        <input type="text" id="search_input">
-        <input type="button" onclick="search_on_web()" value="Github search✔">
-    </div>
-</section>
-<!-- /.banner -->
-
+  <script>
+    function search_on_web() {
+    var search_input = document.getElementById("search_input").value;
+    window.open('https://github.com/search?q=' + search_input);
+    }
+    </script><input type="text" id="search_input">
+    <input type="button" onclick="search_on_web()" value="Github search✔">
+    <!-- /.banner -->
     <div class="columns">
         <div class="column two-thirds" >
             <ol class="repo-list">
