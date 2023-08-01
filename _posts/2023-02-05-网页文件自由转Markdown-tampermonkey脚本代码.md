@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 网页文件自由转Markdown-tampermonkey脚本代码
-categories: Markdown,tampermonkey,脚本
+categories: [Markdown ,Tampermonkey,脚本]
 description: 网页文件自由转Markdown-tampermonkey脚本代码
 keywords: 网页文件自由转Markdown-tampermonkey脚本代码, 脚本代码,Markdown
 ---
