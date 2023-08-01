@@ -1,7 +1,7 @@
 ---
 layout: post
 title: GitHub-introV1.0
-categories: [Github]
+categories: [GitHub]
 description: GitHub-introV1.0
 keywords: GitHub, github
 ---
