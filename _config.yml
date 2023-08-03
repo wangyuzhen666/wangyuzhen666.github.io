@@ -125,6 +125,10 @@ collections:
     fragments:
         output: true
         permalink: /fragment/:path/
+url: "https://wangyuzhen666.github.io/"
+
+plugins:	
+  - jekyll-sitemap
 
 # ---------------- #
 #      Comments    #
