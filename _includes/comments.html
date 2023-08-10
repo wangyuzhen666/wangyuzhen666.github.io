@@ -21,7 +21,7 @@
                 s.async = true;
                 var shortname = '{{ site.disqus.username }}';
 
-                s.src = '//' + shortname + '.disqus.com/embed.js';
+                s.src = '/wangyuzhen666/wangyuzhen666.github.io/edit/main/_includes/comments.html' + shortname + '.disqus.com/embed.js';
 
                 s.setAttribute('data-timestamp', +new Date());
                 (d.head || d.body).appendChild(s);
@@ -61,7 +61,7 @@
               s.async = true;
               var shortname = '{{ site.disqus.username }}';
 
-              s.src = '//' + shortname + '.disqus.com/embed.js';
+              s.src = '/wangyuzhen666/wangyuzhen666.github.io/edit/main/_includes/comments.html' + shortname + '.disqus.com/embed.js';
 
               s.setAttribute('data-timestamp', +new Date());
               (d.head || d.body).appendChild(s);
@@ -88,10 +88,15 @@
         </script>
     {% when 'gitalk' %}
         <div id="gitalk-container"></div>
-        <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css"> -->
-        <link rel="stylesheet" href="{{ assets_base_url }}/assets/vendor/gitalk/gitalk.css">
-        <script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
-        <script>
+       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
+<script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>  
+
+<!-- or -->
+
+<link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+ 
+<script>
         var gitalk = new Gitalk({
             id: '{{ page.url | truncate: 50, '' }}',
             clientID: '{{ site.gitalk.clientID }}',
