@@ -152,7 +152,7 @@ gitalk:
     owner: wangyuzhen666
     repo: blog-comments
     clientID: 812a78f52fc34eec8b61
-    clientSecret:119763c2e2c8efcc825e00769bab739366f86853 
+    clientSecret: 119763c2e2c8efcc825e00769bab739366f86853 
 # utterances 配置参考：https://utteranc.es/
 utterances:
     repo: mzlogin/blog-comments
