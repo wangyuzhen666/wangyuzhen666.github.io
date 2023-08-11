@@ -8,19 +8,23 @@ menu: 关于
 permalink: /about/
 ---
 
-我是王玉镇Yojen Wang。
+### 我是 王玉镇YUZHEN WANG😎。
 
-仰慕「优雅编码的艺术」。
+2008年出生
 
-坚信熟能生巧，努力改变人生。
+坚信打码改变世界
+
+乐于涉足新知🤔
 
 ## 联系
+Email：  <wangyuzhen831201@163.com>
+## BLOG:
 
 <ul>
 {% for website in site.data.social %}
 <li>{{website.sitename }}：<a href="{{ website.url }}" target="_blank">@{{ website.name }}</a></li>
 {% endfor %}
-{% if site.url contains 'mazhuang.org' %}
+{% if site.url contains 'https://mazhuang.org' %}
 <li>
 我的CSDN博客<br />
 <img style="height:192px;width:192px;border:1px solid lightgrey;" src="{{ site.url }}/assets/images/qrcode.jpg" alt="我的CSDN" />
