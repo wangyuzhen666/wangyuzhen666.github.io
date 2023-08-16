@@ -87,6 +87,9 @@ navs:
   -
     href: /wiki/
     label: 维基
+  -
+    href: /ads.txt
+    label: adstxt
 
   -
     href: /links/
