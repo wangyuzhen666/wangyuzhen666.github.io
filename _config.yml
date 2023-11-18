@@ -4,15 +4,15 @@
 baseurl:
 url: https://wangyuzhen666.github.io/
 date_format: "ordinal"
-title: 孙浩宇Sb
+title: WANGYUZHEN
 subtitle: "wangyuzhen王玉镇's blog&website 孙浩宇Sb"
-description: "WANG YUZHEN 技术&知识分享 孙浩宇Sb"
+description: "WANG YUZHEN 技术&知识分享 "
 keywords: Yojen Wang,王玉镇,wangyuzhen666,wangyuzhen,wangyuzhen王玉镇's blog&website,技术,知识
 timezone: Asia/Qingdao
 encoding: "utf-8"
 # 页面左下角显示的年份
 since: 2023
-# 源码仓库，请替换成自己的
+# 源码仓库
 repository: wangyuzhen666/wangyuzhen666.github.io
 
 # 对 css 和 js 资源的 cdn 加速配置
