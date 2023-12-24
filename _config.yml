@@ -5,7 +5,7 @@ baseurl:
 url: https://wangyuzhen666.github.io/
 date_format: "ordinal"
 title: WANGYUZHEN
-subtitle: "wangyuzhen王玉镇's blog&website 孙浩宇Sb"
+subtitle: "wangyuzhen王玉镇's blog&website"
 description: "WANG YUZHEN 技术&知识分享 "
 keywords: Yojen Wang,王玉镇,wangyuzhen666,wangyuzhen,wangyuzhen王玉镇's blog&website,技术,知识
 timezone: Asia/Qingdao
@@ -18,7 +18,7 @@ repository: wangyuzhen666/wangyuzhen666.github.io
 # 对 css 和 js 资源的 cdn 加速配置
 cdn:
     jsdelivr:
-        enabled: false
+        enabled: true
 # 可选组件配置
 components:
     # 分享
