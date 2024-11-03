@@ -3,23 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>孙玉轩生日快乐</title>
-    <style>
-        /* 其他样式保持不变 */
-        .code-block {
-            max-height: 120px; /* 初始显示的高度 */
-            overflow: hidden;  /* 隐藏溢出的内容 */
-            transition: max-height 0.3s ease; /* 动画效果 */
-        }
-        .code-block.expanded {
-            max-height: 500px; /* 展开后的高度 */
-        }
-        .toggle-button {
-            cursor: pointer;
-            color: #007BFF;
-            text-decoration: underline;
-            margin-top: 10px;
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="container">
@@ -1089,13 +1073,10 @@
             </pre>
         </div>
         <div class="toggle-button" onclick="toggleCode()">显示/隐藏 代码块</div>
+        
+        <button id="dynamicButton">点击我！</button>
     </div>
 
-    <script>
-        function toggleCode() {
-            const codeBlock = document.getElementById('codeBlock');
-            codeBlock.classList.toggle('expanded');
-        }
-    </script>
+    <script src="script.js"></script>
 </body>
 </html>
