@@ -1,0 +1,67 @@
+/* 动态背景样式 */
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradientBG 15s ease infinite;
+}
+
+@keyframes gradientBG {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.container {
+    text-align: center;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+/* 代码块样式 */
+.code-block {
+    max-height: 120px; /* 初始显示的高度 */
+    overflow: hidden;  /* 隐藏溢出的内容 */
+    transition: max-height 0.3s ease; /* 动画效果 */
+    background: rgba(255, 255, 255, 0.1);
+    padding: 10px;
+    border-radius: 5px;
+    color: #ddd;
+}
+.code-block.expanded {
+    max-height: 500px; /* 展开后的高度 */
+}
+.toggle-button {
+    cursor: pointer;
+    color: #007BFF;
+    text-decoration: underline;
+    margin-top: 10px;
+}
+
+button {
+    padding: 15px 30px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff4da6;
+    color: white;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
