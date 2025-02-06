@@ -8,13 +8,10 @@ menu: 关于
 permalink: /about/
 ---
 
-### 我是 王玉镇YUZHEN WANG😎。
+### 我是 Yoken Wang😎。
 
 2008年出生
-
-坚信打码改变世界
-
-乐于涉足新知🤔
+🤔
 
 ## 联系
 Email：  <wangyuzhen831201@163.com>
