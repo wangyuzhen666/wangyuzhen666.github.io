@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YUZHEN WANG API Deepseek</title>
+    <style>
+        /* 全局样式 */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 40px;
+            background: linear-gradient(135deg, #f4f4f4 0%, #e0e0e0 100%);
+            color: #333;
+        }
+
+        /* 标题样式 */
+        h1 {
+            text-align: center;
+            color: #333;
+            font-size: 36px;
+            margin-bottom: 40px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        /* 输入框和按钮容器样式 */
+        .input-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 40px;
+        }
+
+        /* 输入框样式 */
+        #inputText {
+            padding: 15px 20px;
+            width: 400px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            margin-right: 20px;
+            font-size: 16px;
+            transition: border-color 0.3s ease;
+        }
+
+        #inputText:focus {
+            border-color: #007BFF;
+            outline: none;
+        }
+
+        /* 按钮样式 */
+        button {
+            padding: 15px 30px;
+            background-color: #007BFF;
+            color: #fff;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 16px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: background-color 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+            box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+        }
+
+        /* 输出区域样式 */
+        #output {
+            background-color: #fff;
+            padding: 30px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            font-family: 'Courier New', Courier, monospace;
+            white-space: pre-wrap;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>YUZHEN WANG API Deepseek</h1>
+
+    <div class="input-container">
+        <input type="text" id="inputText" placeholder="输入你的问题">
+        <button onclick="callDeepSeekAPI()">发送请求</button>
+    </div>
+
+    <div id="output"></div>
+
+    <script>
+        const apiKey = 'YOUR_API_KEY';  // 替换为你的 DeepSeek API 密钥
+        const apiUrl = 'https://api.deepseek.com/your-endpoint';  // 替换为 DeepSeek API 的实际端点
+
+        async function callDeepSeekAPI() {
+            const inputText = document.getElementById('inputText').value;
+            const requestData = {
+                // 根据 DeepSeek API 的要求构建请求数据
+                query: inputText
+            };
+
+            try {
+                const response = await fetch(apiUrl, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                        'Authorization': `Bearer ${apiKey}`
+                    },
+                    body: JSON.stringify(requestData)
+                });
+
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+
+                const data = await response.json();
+                document.getElementById('output').innerHTML = JSON.stringify(data, null, 2);
+            } catch (error) {
+                console.error('请求出错:', error);
+                document.getElementById('output').innerHTML = '请求出错，请检查控制台日志。';
+            }
+        }
+    </script>
+</body>
+
+</html>
